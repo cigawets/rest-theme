@@ -54,16 +54,6 @@ main[aria-label="Friends"]>* {
     background: transparent !important;
 }
 
-div.chat_f75fb0:not(.threadSidebarOpen_f75fb0) section.container__9293f,
-main.container__133bf section.container__9293f,
-div.chatLayerWrapper__01ae2 section.container__9293f {
-    padding-right: var(--vr-header-snippet-space);
-}
-
-div.headerBar__8a7fc.overlay__8a7fc {
-    padding-right: var(--vr-header-snippet-space);
-}
-
 div.headerBar__8a7fc.overlay__8a7fc .tab__65d41,
 div.headerBar__8a7fc.overlay__8a7fc .searchBar__1ac1c {
     -webkit-app-region: no-drag;
@@ -137,10 +127,6 @@ nav a[href] [class*="name_"] {
     align-items: center;
 }
 
-.title__9293f {
-    display: none;
-}
-
 .sectionTitle__5ec2f {
     display: none;
 }
@@ -193,7 +179,6 @@ nav a[href="/shop"] [class*="name_"]::after {
     font-size: 12px;
 }
 
-.iconWrapper__9293f,
 .backForwardButtons__63abb,
 .trailing_c38106 {
     display: none;
