@@ -239,3 +239,12 @@ a[href*="quest"] {
     background-color: rgb(47, 47, 47, 0.3);
     color: rgb(218, 218, 218);
 }
+
+/* remove emojis from message tooltips */
+.separator_f84418 {
+    display: none;
+}
+
+div[aria-label^="Click to react"] {
+    display: none;
+}
