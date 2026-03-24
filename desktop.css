@@ -1,3 +1,4 @@
+
 div.searchBar_e6b769 {
     display: var(--friends-searchbar-display) !important;
 }
@@ -150,6 +151,8 @@ nav a[href="/channels/@me"] [class*="name_"] {
 nav a[href="/channels/@me"] [class*="name_"]::after {
     content: "친구들";
     font-size: 12px;
+    position: absolute;
+    right: .5rem;
 }
 
 nav a[href="/store"] [class*="name_"] {
@@ -159,6 +162,8 @@ nav a[href="/store"] [class*="name_"] {
 nav a[href="/store"] [class*="name_"]::after {
     content: "니트로";
     font-size: 12px;
+    position: absolute;
+    right: .5rem;
 }
 
 nav a[href="/shop"] [class*="name_"] {
@@ -168,10 +173,19 @@ nav a[href="/shop"] [class*="name_"] {
 nav a[href="/shop"] [class*="name_"]::after {
     content: "샵";
     font-size: 12px;
+    position: absolute;
+    right: .5rem;
 }
 
 .headerText__99e7c {
     font-size: 0;
+}
+
+.privateChannelsHeaderContainer__99e7c {
+    background-color: #1a1a1c5e !important;
+    padding: 15px;
+    margin: .5rem;
+    border-radius: 5px;
 }
 
 .headerText__99e7c::after {
@@ -247,4 +261,25 @@ a[href*="quest"] {
 
 div[aria-label^="Click to react"] {
     display: none;
+}
+
+.button_e131a9[type="button"] {
+    background-color: rgba(56, 46, 55, 0.305);
+    border: 1px solid rgba(255, 143, 225, 0.408);
+}
+
+.button_e131a9[type="button"]:hover {
+    background-color: rgba(87, 69, 85, 0.507);
+}
+
+.button_e131a9[type="button"].buttonActive_e131a9 {
+    background-color: rgba(255, 143, 225, 0.408);
+}
+
+.button_e131a9[type="button"].buttonActive_e131a9 svg {
+    color: rgb(255, 191, 244);
+}
+
+.button_e131a9[type="button"].buttonActive_e131a9:hover {
+    background-color: rgba(255, 143, 225, 0.178);
 }
