@@ -1,3 +1,23 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 120px;
+  height: 18px;
+
+  background: rgba(40, 40, 40, 0.35);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+
+  -webkit-app-region: drag;
+
+  z-index: 10000;
+}
+
 div.searchBar_e6b769 {
   display: var(--friends-searchbar-display) !important;
 }
